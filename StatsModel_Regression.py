@@ -21,6 +21,10 @@ def stock_price_prediction(filePath):
   predictions = model.predict(dates)
 
   print_model = model.summary()
+  print('\n')
+  print('\n')
   print(print_model)
+  print('\n')
+  print('\n')
 
 stock_price_prediction('a.us.csv')

@@ -1,5 +1,5 @@
 def stock_price_prediction(filePath):
-  `# Importing the libraries
+  # Importing the libraries
   import pandas as pd
   import numpy as np
   import matplotlib.pyplot as plt
@@ -34,3 +34,5 @@ def stock_price_prediction(filePath):
   plt.scatter(X,y)
   plt.plot([min(X), max(X)], [min(Y_pred), max(Y_pred)], color="red")
   plt.show()
+
+stock_price_prediction('a.us.csv')
